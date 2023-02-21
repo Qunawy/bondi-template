@@ -11,10 +11,12 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 .main-btn,
-.main-btn:hover{
+.main-btn:hover,
+.btn.main-btn:active{
   background-color: var(--red-color);
   color: var(--yellow-color);
   padding: 0.5rem 1rem;
+  border:none;
 }
 
 .main-title::after{
