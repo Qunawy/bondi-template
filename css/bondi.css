@@ -16,9 +16,8 @@ body{
   background-color: var(--red-color);
   color: var(--yellow-color);
   padding: 0.5rem 1rem;
-  border:none;
-}
-
+  border-color: var(--red-color);
+ }
 .main-title::after{
   content:"" ;
   position: absolute;
