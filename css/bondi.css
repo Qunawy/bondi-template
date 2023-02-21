@@ -19,7 +19,7 @@ body{
 .btn.main-btn:active{
   background-color: var(--red-color);
   color: var(--yellow-color);
-  border-color:none;
+  border-color:var(--red-color);
 }
 .main-title::after{
   content:"" ;
